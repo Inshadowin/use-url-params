@@ -1,6 +1,6 @@
 {
   "name": "use-url-params",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This is a package with use-url-params. Hook that implements useState-like behaviour working with local storage",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/Inshadowin/use-url-params.git"
   },
   "author": "Antony Karachansky",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Inshadowin/use-url-params/issues"
   },
@@ -80,8 +80,8 @@
     "resetMocks": true
   },
   "peerDependencies": {
-    "react": "^18.2.0 || ^17.0.0 || ^16.0.0",
-    "react-dom": "^18.2.0 || ^17.0.0 || ^16.0.0"
+    "react": "^19.0.0 || ^18.2.0 || ^17.0.0 || ^16.0.0",
+    "react-dom": "^19.0.0 || ^18.2.0 || ^17.0.0 || ^16.0.0"
   },
   "prettier": {
     "singleQuote": true,
